@@ -1,0 +1,150 @@
+h5{
+    color:#ffffff;
+}
+
+.btn-social {
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  color: white;
+  padding-left: 40px;
+}
+
+.btn-social:hover {
+  color: white;
+}
+
+.btn-social > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    line-height: 1.6em;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-social.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-social.btn-facebook:hover {
+  background-color: #324b80;
+}
+.profile{
+    background-color: #ffffff;
+    padding: 15px;
+}
+.profile h3{
+    border-bottom: 4px solid gray;
+    width: 25%;
+    margin-left: 35%;
+}
+.set{
+    margin: 20px;
+}
+.text{
+    margin-top: 30px;
+}
+.text p{
+    font-size: 20px;
+    
+}
+.modal-title{
+    color:black;
+}
+.modal {
+  margin-top:90px;
+}
+.pdt-cat{
+    border-right: 1px solid #E5E5E5;
+    margin-top: 40px;
+}
+.handle-counter { overflow: hidden; }
+
+.handle-counter .counter-minus,  .handle-counter .counter-plus,  .handle-counter input {
+  float: left;
+  text-align: center;
+}
+
+.handle-counter .counter-minus,  .handle-counter .counter-plus { text-align: center; }
+
+.handle-counter input {
+  width: 50px;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+}
+
+.btn {
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.btn:disabled, .btn:disabled:hover {
+  background-color: darkgrey;
+  cursor: not-allowed;
+}
+
+.btn-primary { background-color: #009dda; }
+
+.btn-primary:hover, .btn-primary:focus { background-color: #0486b9; }
+
+.cart_menu{
+    margin-right: 30px;
+    margin-top: 10px
+}
+.cart_btn{
+    margin:0 auto;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.cart_item{
+    
+}
+.cart_badge{
+    position: relative;
+    background-color:green;
+    color:#ffffff;
+    padding: 1.3px 5px;
+    font-size:13px; 
+    border-radius: 50%;
+    top:-10px;
+    left:-28px;
+}
+.fa-shopping-basket{
+    font-size: 20px;
+}
+.order{
+    color:#ffffff;
+    width:50%;
+    padding: 5px;
+    border:3px inset #ffffff;
+    margin:0 auto;
+}
+.table-ship{
+    color:#ffffff;
+}
+.padding-0{
+    padding-left:-15px!important;
+    
+}
+.input-counter{
+    text-align: center;
+}
+.plus{
+    float:right;
+    padding-left:-20px;
+}
+[v-cloak]{
+    display: none;
+}
+.main-title{
+    color:dimgray;
+}
+.btn-link{
+    color:cornflowerblue;
+}
